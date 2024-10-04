@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://diea7inum1cks"]
+
+[ext_resource type="Script" path="res://scripts/SearchResults.cs" id="1_hjxek"]
+
+[node name="SearchResults" type="Node"]
+script = ExtResource("1_hjxek")

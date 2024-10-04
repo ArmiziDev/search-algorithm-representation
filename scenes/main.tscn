@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://dvr4wm8wnyew2"]
+
+[ext_resource type="Script" path="res://scripts/Main.cs" id="1_t5igl"]
+[ext_resource type="PackedScene" uid="uid://jalei2k5aode" path="res://scenes/state.tscn" id="2_40hlu"]
+[ext_resource type="Script" path="res://scripts/CameraController.cs" id="3_ie7qg"]
+[ext_resource type="PackedScene" uid="uid://16c8x8rthgpa" path="res://scenes/DrawMap.tscn" id="3_xo11x"]
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("drawMap")]
+script = ExtResource("1_t5igl")
+drawMap = NodePath("DrawMap")
+
+[node name="CameraController" type="Node2D" parent="." node_paths=PackedStringArray("camera")]
+position = Vector2(575, 325)
+script = ExtResource("3_ie7qg")
+camera = NodePath("Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="CameraController"]
+
+[node name="DrawMap" parent="." instance=ExtResource("3_xo11x")]
+StateScene = ExtResource("2_40hlu")

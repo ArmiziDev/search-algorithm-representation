@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bynbclbg7sqc6"]
+
+[ext_resource type="Script" path="res://scripts/SearchAlgorithms.cs" id="1_pm3x6"]
+
+[node name="SearchAlgorithms" type="Node"]
+script = ExtResource("1_pm3x6")
