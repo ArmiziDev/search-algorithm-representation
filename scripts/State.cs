@@ -7,6 +7,8 @@ public partial class State : Node2D
     private List<bool> visited_targets = new List<bool>();
     private StringName Atomic; // atomic representation of state
 
+    [Export] private Sprite2D Sprite;
+
     public State(StringName Name, List<bool> visited_targets)
     {
         Initialize(Name, visited_targets);
@@ -52,4 +54,17 @@ public partial class State : Node2D
     public List<bool> getVisitedTargets() { return this.visited_targets; }
     public StringName getRepresentation() { return this.Atomic; }
 
+    public void Glow()
+    {
+        if (Sprite == null) return;
+
+        Sprite.Modulate = new Color(1, 1, 0);
+    }
+
+    public void RemoveGlow()
+    {
+        if (Sprite == null) return;
+
+        Sprite.Modulate = new Color(1,1,1);
+    }
 }

@@ -5,13 +5,14 @@ using System.Linq;
 
 public partial class SearchAlgorithms : Node
 {
-	public SearchResults breadthFirstSearch(Problem problem)
+    List<State> pending_nodes = new List<State>();
+
+    public SearchResults breadthFirstSearch(Problem problem)
 	{
 		StringName initial_state_name = problem.getInitialState();
 		List<bool> initial_targets = new List<bool>();
 		State initial_state = new State(initial_state_name, initial_targets);
 
-		List<State> pending_nodes = new List<State>();
 		pending_nodes.Add(initial_state);
 		int nodes_reached = 1;
 		int nodes_explored = 0;
@@ -23,6 +24,8 @@ public partial class SearchAlgorithms : Node
 			State current_state = pending_nodes[0];
 			pending_nodes.Remove(current_state);
 			nodes_explored += 1;
+
+			current_state.Glow();
 
 			if (problem.isGoalState(current_state))
 			{
@@ -54,8 +57,10 @@ public partial class SearchAlgorithms : Node
 					pending_nodes.Append<State>(child);
 					explore_map[child_representation] = current_state;
 					nodes_reached++;
+					Globals.main.drawMap.replaceState(child); // this is adding state to the map
 				}
 			}
+			current_state.RemoveGlow();
 		}
 
 		return new SearchResults(null, 0, 0, 0);

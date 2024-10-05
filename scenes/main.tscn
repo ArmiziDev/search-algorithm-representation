@@ -1,13 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://dvr4wm8wnyew2"]
+[gd_scene load_steps=9 format=3 uid="uid://dvr4wm8wnyew2"]
 
 [ext_resource type="Script" path="res://scripts/Main.cs" id="1_t5igl"]
 [ext_resource type="PackedScene" uid="uid://jalei2k5aode" path="res://scenes/state.tscn" id="2_40hlu"]
 [ext_resource type="Script" path="res://scripts/CameraController.cs" id="3_ie7qg"]
 [ext_resource type="PackedScene" uid="uid://16c8x8rthgpa" path="res://scenes/DrawMap.tscn" id="3_xo11x"]
+[ext_resource type="PackedScene" uid="uid://deroxtpobui6" path="res://scenes/ui.tscn" id="5_x802j"]
+[ext_resource type="PackedScene" uid="uid://bynbclbg7sqc6" path="res://scenes/SearchAlgorithms.tscn" id="6_nhyhy"]
+[ext_resource type="PackedScene" uid="uid://dv6b4px1gmrsp" path="res://scenes/Problem.tscn" id="7_fvg4d"]
+[ext_resource type="PackedScene" uid="uid://n820afspbhh1" path="res://scenes/SearchRequest.tscn" id="8_rfxy7"]
 
-[node name="Main" type="Node2D" node_paths=PackedStringArray("drawMap")]
+[node name="Main" type="Node2D" node_paths=PackedStringArray("drawMap", "searchAlgorithms")]
 script = ExtResource("1_t5igl")
 drawMap = NodePath("DrawMap")
+searchAlgorithms = NodePath("SearchAlgorithms")
 
 [node name="CameraController" type="Node2D" parent="." node_paths=PackedStringArray("camera")]
 position = Vector2(575, 325)
@@ -18,3 +23,11 @@ camera = NodePath("Camera2D")
 
 [node name="DrawMap" parent="." instance=ExtResource("3_xo11x")]
 StateScene = ExtResource("2_40hlu")
+
+[node name="UI" parent="." instance=ExtResource("5_x802j")]
+
+[node name="SearchAlgorithms" parent="." instance=ExtResource("6_nhyhy")]
+
+[node name="Problem" parent="." instance=ExtResource("7_fvg4d")]
+
+[node name="SearchRequest" parent="." instance=ExtResource("8_rfxy7")]

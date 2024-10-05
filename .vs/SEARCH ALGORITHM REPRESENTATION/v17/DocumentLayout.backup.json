@@ -3,19 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\citymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\citymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\searchresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\searchresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arman\\AppData\\Local\\Temp\\.vsdbgsrc\\e02c6d47bcf93dc176fd92dbe50e48b6346bd905c9638f8cf9ab6f4e860123e7\\CSharpInstanceBridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\searchalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,12 +19,28 @@
       "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|c:\\users\\arman\\documents\\godotprojects\\search-algorithm-representation\\scripts\\citymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E05F141-A93A-4662-BC36-014E6F20D8EC}|Search Algorithm Representation.csproj|solutionrelative:scripts\\citymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,20 +50,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 249,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CSharpInstanceBridge.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\AppData\\Local\\Temp\\.vsdbgsrc\\e02c6d47bcf93dc176fd92dbe50e48b6346bd905c9638f8cf9ab6f4e860123e7\\CSharpInstanceBridge.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e02c6d47bcf93dc176fd92dbe50e48b6346bd905c9638f8cf9ab6f4e860123e7\\CSharpInstanceBridge.cs",
-              "ToolTip": "C:\\Users\\arman\\AppData\\Local\\Temp\\.vsdbgsrc\\e02c6d47bcf93dc176fd92dbe50e48b6346bd905c9638f8cf9ab6f4e860123e7\\CSharpInstanceBridge.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e02c6d47bcf93dc176fd92dbe50e48b6346bd905c9638f8cf9ab6f4e860123e7\\CSharpInstanceBridge.cs [Read Only]",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAMwB0AAAACAAAAAQAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\Globals.cs",
+              "RelativeDocumentMoniker": "scripts\\Globals.cs",
+              "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\Globals.cs",
+              "RelativeToolTip": "scripts\\Globals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:45:14.454Z",
-              "EditorCaption": " [Read Only]"
+              "WhenOpened": "2024-10-04T21:42:14.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrawMap.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\DrawMap.cs",
+              "RelativeDocumentMoniker": "scripts\\DrawMap.cs",
+              "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\DrawMap.cs",
+              "RelativeToolTip": "scripts\\DrawMap.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:37:49.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\CameraController.cs",
+              "RelativeToolTip": "scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:11:05.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,14 +99,14 @@
               "RelativeDocumentMoniker": "scripts\\Main.cs",
               "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\Main.cs",
               "RelativeToolTip": "scripts\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T00:42:11.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SearchResults.cs",
               "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\SearchResults.cs",
               "RelativeDocumentMoniker": "scripts\\SearchResults.cs",
@@ -84,39 +119,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SearchAlgorithms.cs",
               "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\SearchAlgorithms.cs",
               "RelativeDocumentMoniker": "scripts\\SearchAlgorithms.cs",
               "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\SearchAlgorithms.cs",
               "RelativeToolTip": "scripts\\SearchAlgorithms.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T23:39:16.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Problem.cs",
               "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\Problem.cs",
               "RelativeDocumentMoniker": "scripts\\Problem.cs",
               "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\Problem.cs",
               "RelativeToolTip": "scripts\\Problem.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwCoAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T22:52:11.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "State.cs",
               "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\State.cs",
               "RelativeDocumentMoniker": "scripts\\State.cs",
               "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\State.cs",
               "RelativeToolTip": "scripts\\State.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wD8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T21:21:38.7Z",
               "EditorCaption": ""
@@ -136,13 +171,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CityMap.cs",
               "DocumentMoniker": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\CityMap.cs",
               "RelativeDocumentMoniker": "scripts\\CityMap.cs",
               "ToolTip": "C:\\Users\\arman\\Documents\\GodotProjects\\search-algorithm-representation\\scripts\\CityMap.cs",
               "RelativeToolTip": "scripts\\CityMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T21:34:37.741Z",
               "EditorCaption": ""
